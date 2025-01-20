@@ -1,0 +1,7 @@
+---
+name: "test-service"
+debug: true
+profiles:
+- 'test'
+
+log_level: DEBUG

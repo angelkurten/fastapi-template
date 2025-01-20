@@ -1,0 +1,9 @@
+---
+
+name: 'docker-service'
+debug: true
+profiles:
+- 'dev'
+- 'docker'
+
+log_level: DEBUG

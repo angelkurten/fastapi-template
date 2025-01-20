@@ -1,0 +1,11 @@
+---
+
+name: 'my-service'
+debug: false
+profiles:
+- 'production'
+
+log_level: INFO
+
+sentry:
+  dns: ???

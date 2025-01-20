@@ -1,0 +1,8 @@
+---
+
+name: 'dev-service'
+debug: true
+profiles:
+- 'dev'
+
+log_level: DEBUG

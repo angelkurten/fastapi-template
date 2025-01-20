@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  my_service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8009:8000"
+    volumes:
+      - .:/src
+    networks:
+      - main
+
+networks:
+  main:
