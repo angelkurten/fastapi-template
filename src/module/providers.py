@@ -7,3 +7,11 @@ class ApplicationScoped(providers.Singleton):
 
 class RequestScoped(providers.ContextLocalSingleton):
     pass
+
+
+class RouteProvider(providers.Singleton):
+    pass
+
+
+class UseCaseProvider(providers.Singleton):
+    pass
